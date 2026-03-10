@@ -1,0 +1,30 @@
+body{
+    font-family: Arial;
+    background:lightpink;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    text-align:center;
+}
+
+button{
+    padding:10px 20px;
+    margin:20px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
